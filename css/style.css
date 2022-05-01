@@ -109,11 +109,28 @@ ul,li,a,p,h1,h2,h3,h4,h5{
 }
 
 .f-logo img{
-	width: 150px;
+	width: 180px;
 }
 
+.head-social{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-social p{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.head-social img{
+    width: 80px;
+    margin: 0px 10px;
+}
 .social-footer img{
-	width: 25px;
+	width: 50px;
 }
 .copyright-text{
 	background: #0a0a0a;
@@ -166,7 +183,7 @@ ul,li,a,p,h1,h2,h3,h4,h5{
 
 
 .img-main-text{
-	top: 50px;
+	top: 70px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -196,14 +213,28 @@ p{
 	    position: absolute;
     top: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100%;
 }
 .logo-parent p{
-    
+    text-align: center;
     color: #fff;
+}
+
+.whatsp-div .play-btn img{
+    width: 40px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.whatsp-div{
+    width: 250px;
+}
+
+.whatsp-div .play-sec{
+    width: ;
 }
 
 .logo-parent img{
@@ -321,7 +352,7 @@ h1 {
 
 .simple-steps-div{
     background-image: url(../assets/bg2.jpg);
-    padding: 55px 0px 0px 0px;
+    padding: 60px 0px 60px 0px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -346,7 +377,7 @@ h1 {
         height: 80vh;
     }
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:500px){
     .img-main-text{
         flex-direction: column;
     }
@@ -355,8 +386,11 @@ h1 {
         margin: 18px;
         margin-top: 18px;
     }
+    .img-main-text{
+        flex-direction:column ;
+    }
     body{
-        display: none !important;
+        display: none;
     }
     .section-head{
         font-size: 26px;
