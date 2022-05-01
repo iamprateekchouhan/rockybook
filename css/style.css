@@ -1,0 +1,408 @@
+body{
+	height: 100%;
+	background: #000;
+}
+ul,li,a,p,h1,h2,h3,h4,h5{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	text-decoration:none;
+}
+
+.top-site-parent{
+    background: black;
+    padding: 30px 0px;
+}
+
+.top-site-content ul{
+	display: table;
+	width: 100%;
+    margin:0px;
+}
+.copyright-text p{
+    margin: 0px;
+}
+
+.top-site-content ul li{
+    display: table;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+}
+
+.boy-girl{
+    background: #000;
+    padding: 20px;
+}
+
+.player-winning{
+    padding: 25px 0px;
+    background-color: #000;
+}
+.playe-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.playe-head img{
+    width: 100px;
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.owl-nav button{
+    margin: 0px;
+}
+.owl-nav button span{
+    font-size: 34px;
+    color: #fff;
+}
+
+.top-site-content ul li img{
+    vertical-align: middle;
+    border-style: none;
+    border: 4px solid #929292;
+    border-radius: 13px;
+
+}
+
+.section-head{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 20px 0px
+}
+
+.steps-content{
+    display: flex;
+    align-items: center;
+}
+
+.steps-right img{
+    width: 350px;
+} 
+
+.rate-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+	background: #000;
+}
+
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+    margin-bottom: 25px;
+}
+
+.f-logo img{
+	width: 150px;
+}
+
+.social-footer img{
+	width: 25px;
+}
+.copyright-text{
+	background: #0a0a0a;
+    padding: 7px 10px;
+    font-size: 12px;
+    color: #cecece;
+    text-align: center;
+}
+
+.star-img img{
+	width: 30px;
+	align-items: center;
+}
+
+.rated-parent{
+	padding: 110px 0px;
+    background-image: url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.rate-content img{
+	width: 100%;
+
+}
+
+.rate-div{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star-img img{
+	width: 50px;
+}
+
+.toprated p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.toprated{
+	    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.img-main-text{
+	top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+}
+
+.main-img-banner img{
+	width:430px;
+
+}
+
+p{
+    margin-bottom: 0px  Im !important;
+}
+
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+ 
+}
+
+.logo-parent{
+	    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.logo-parent p{
+    
+    color: #fff;
+}
+
+.logo-parent img{
+	width: 200px;
+	margin-top: 40px;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
+.overlay {
+  width: 100%;
+  /*height: 100vh;*/
+  position: absolute;
+  top: 0;
+  left: 0; 
+  background-size: 3px 3px;
+  z-index: 2;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+}
+
+.subtext-banner{
+	    display: flex;
+    align-items: center; 
+    margin-left: 21px;
+}
+
+.subtext-banner p{ 
+	font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.subtext-banner img{
+	width: 45px
+}
+
+.boy-girl-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boy-girl-content img{
+	width: 30%
+}
+
+.play-btn{
+	background-image: url(../assets/btn.png);
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-position: center;
+}
+
+.play-btn p{
+	font-size: 21px;
+    transition: 0.5s;
+    color: #fff;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+    .play-btn p:hover{
+        color: #f1c30e;
+}
+
+.play-sec{
+	width: 25%;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+}
+
+.list-item img{
+    width: 55px;
+    height: 55px;
+}
+
+.list-item p{
+    font-size: 25px;
+    color: #f1c30e;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.steps-left ul{
+    display: table;
+    margin: 0px;
+    width: 100%;
+}
+
+.simple-steps-div{
+    background-image: url(../assets/bg2.jpg);
+    padding: 55px 0px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.steps-left ul li{
+    display: table;
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+    float:left;
+}
+
+@media screen and (max-width:1200px){
+    .list-item p{
+        font-size: 21px;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    .bg-video-wrap{
+        height: 80vh;
+    }
+}
+@media screen and (max-width:767px){
+    .img-main-text{
+        flex-direction: column;
+    }
+    .top-site-content ul li{    
+        width: calc(100% / 2 - 36px);
+        margin: 18px;
+        margin-top: 18px;
+    }
+    body{
+        display: none !important;
+    }
+    .section-head{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .section-head {
+        font-size: 22px;
+    }
+    
+    .top-site-content ul li{    
+        width: calc(100% / 2 - 36px);
+        margin: 18px;
+        margin-top: 18px;
+    }
+    .simple-steps-div{
+        background-position: bottom;
+    }
+    .steps-left {
+        width: 100% !important;
+    }
+    .steps-right {
+        display: none;
+    }
+    
+    .container .section-head{
+        text-align: center !important;
+        font-size: 26px;
+    }
+    .list-item p{
+        white-space: nowrap;
+        font-size: 17px;
+    }
+    .list-item img{
+        width: 45px;
+        height: 45px;
+    }
+    .rate-content img {
+        width: 70%;
+    }
+    .star-img img{
+        width: 50px;
+    } 
+    .bg-video-wrap {
+        height: 65vh;
+    }
+}
+
