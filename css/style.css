@@ -312,9 +312,9 @@ h1 {
 }
 
 .play-btn p{
-	font-size: 21px;
+	font-size: 23px;
     transition: 0.5s;
-    color: #fff;
+    color: #f1c30f;
     margin-bottom: 0px;
     font-weight: bold;
 }
