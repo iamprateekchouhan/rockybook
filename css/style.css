@@ -37,6 +37,14 @@ ul,li,a,p,h1,h2,h3,h4,h5{
     padding: 20px;
 }
 
+.celebs-love{
+    padding: 25px 0px;
+    background-image: url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .player-winning{
     padding: 25px 0px;
     background-color: #000;
