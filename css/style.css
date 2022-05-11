@@ -229,6 +229,7 @@ p{
 .logo-parent p{
     text-align: center;
     color: #fff;
+    font-size: 22px;
 }
 
 .whatsp-div .play-btn img{
@@ -237,6 +238,11 @@ p{
     padding: 5px;
 }
 
+.whatsp-div .play-btn1 img{
+    width: 40px;
+    margin: 0px;
+    padding: 5px;
+}
 .whatsp-div{
     width: 250px;
 }
@@ -246,7 +252,7 @@ p{
 }
 
 .logo-parent img{
-	width: 200px;
+	width: 400px;
 	margin-top: 40px;
 }
 
@@ -307,7 +313,7 @@ h1 {
 	width: 30%
 }
 
-.play-btn{
+.play-btn1{
 	background-image: url(../assets/btn.png);
     height: 120px;
     background-repeat: no-repeat;
@@ -318,7 +324,28 @@ h1 {
     width: 100%;
     background-position: center;
 }
+.play-btn{
+	background-image: url(../assets/play_now.png);
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-position: center;
+}
 
+.play-btn1 p{
+	font-size: 23px;
+    transition: 0.5s;
+    color: #f1c30f;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+    .play-btn1 p:hover{
+        color: #f1c30e;
+}
 .play-btn p{
 	font-size: 23px;
     transition: 0.5s;
