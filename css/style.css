@@ -247,9 +247,6 @@ p{
     width: 250px;
 }
 
-.whatsp-div .play-sec{
-    width: ;
-}
 
 .logo-parent img{
 	width: 400px;
@@ -399,79 +396,3 @@ h1 {
     margin: 10px;
     float:left;
 }
-
-@media screen and (max-width:1200px){
-    .list-item p{
-        font-size: 21px;
-    }
-}
-
-
-@media screen and (max-width:1024px){
-    .bg-video-wrap{
-        height: 80vh;
-    }
-}
-@media screen and (max-width:500px){
-    .img-main-text{
-        flex-direction: column;
-    }
-    .top-site-content ul li{    
-        width: calc(100% / 2 - 36px);
-        margin: 18px;
-        margin-top: 18px;
-    }
-    .img-main-text{
-        flex-direction:column ;
-    }
-    body{
-        display: none;
-    }
-    .section-head{
-        font-size: 26px;
-    }
-}
-
-@media screen and (max-width:992px){
-    .section-head {
-        font-size: 22px;
-    }
-    
-    .top-site-content ul li{    
-        width: calc(100% / 2 - 36px);
-        margin: 18px;
-        margin-top: 18px;
-    }
-    .simple-steps-div{
-        background-position: bottom;
-    }
-    .steps-left {
-        width: 100% !important;
-    }
-    .steps-right {
-        display: none;
-    }
-    
-    .container .section-head{
-        text-align: center !important;
-        font-size: 26px;
-    }
-    .list-item p{
-        white-space: nowrap;
-        font-size: 17px;
-    }
-    .list-item img{
-        width: 45px;
-        height: 45px;
-    }
-    .rate-content img {
-        width: 70%;
-    }
-    .star-img img{
-        width: 50px;
-    } 
-    .bg-video-wrap {
-        height: 65vh;
-    }
-}
-
