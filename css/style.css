@@ -218,18 +218,24 @@ p{
 }
 
 .logo-parent{
-	    position: absolute;
+	    position: fixed;
     top: 0;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    background: #00000087;
+    z-index: 2;
     align-items: center;
     /* flex-direction: column; */
     width: 100%;
 }
+
+
 .logo-parent p{
     text-align: center;
     color: #fff;
-    font-size: 22px;
+    /* font-size: 18px; */
+    margin: 0px;
 }
 
 .whatsp-div .play-btn img{
@@ -249,8 +255,8 @@ p{
 
 
 .logo-parent img{
-	width: 400px;
-	margin-top: 40px;
+	width: 300px;
+	/* margin-top: 40px; */
 }
 
 video {
@@ -312,7 +318,7 @@ h1 {
 
 .play-btn1{
 	background-image: url(../assets/btn.png);
-    height: 120px;
+    height: 90px;
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
